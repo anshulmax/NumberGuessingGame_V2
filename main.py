@@ -37,7 +37,7 @@ while True:
             if p_quit != True:
                     p_quit = displayScores()
                     print("Would you like to play again?")
-                    if input("Enter 'Q' to quit anything else to play again. ").upper() == "Q":
+                    if input("Enter 'Q' to quit. Type anything else to play again! ").upper() == "Q":
                         p_quit = True
                     # Remember to make p_quit = false this time around
                     else:
